@@ -27,5 +27,25 @@ namespace ConsoleApplication1
             }
             return result;
         }
+
+        public int[] Sollution_Fast(int num)
+        {
+            var result = new int[num + 1];
+            if (num > 0)
+                result[1] = 1;
+            if (num > 1)
+            {
+                var known = 2;
+                while (known <= num)
+                {
+                    for (int i = 0; known + i <= num && i < known; i++)
+                    {
+                        result[known + i] = result[i] + 1;
+                    }
+                    known *= 2;
+                }
+            }
+            return result;
+        }
     }
 }
