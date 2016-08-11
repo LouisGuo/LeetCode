@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,7 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+
             var tool = new Counting_Bits();
 
             for (int i = 0; i < Math.Pow(2, 5); i++)
