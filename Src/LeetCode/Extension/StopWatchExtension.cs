@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication1
+namespace LeetCode
 {
-    static class StopWatchExtension
+    public static class StopWatchExtension
     {
         public static TimeSpan Timing(this Stopwatch stopWatch, Action action)
         {

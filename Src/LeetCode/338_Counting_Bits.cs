@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication1
+namespace LeetCode
 {
-    class Counting_Bits
+    public class Counting_Bits
     {
         public int[] Sollution(int num)
         {
