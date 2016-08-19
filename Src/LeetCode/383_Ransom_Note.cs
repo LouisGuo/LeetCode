@@ -20,6 +20,7 @@ namespace LeetCode
                     {
                         sb.Remove(i, 1);
                         contains = true;
+                        break;
                     }
                 }
                 if (!contains)

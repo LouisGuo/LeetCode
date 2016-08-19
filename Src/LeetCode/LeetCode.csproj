@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="100_Same_Tree.cs" />
     <Compile Include="104_Maximum_Depth_of_Binary_Tree.cs" />
     <Compile Include="226_Invert_Binary_Tree.cs" />
     <Compile Include="237_Delete_Node_in_a_Linked List.cs" />
