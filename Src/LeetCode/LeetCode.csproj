@@ -48,6 +48,7 @@
     <Compile Include="292_Nim_Game.cs" />
     <Compile Include="338_Counting_Bits.cs" />
     <Compile Include="344_Reverse_String.cs" />
+    <Compile Include="383_Ransom_Note.cs" />
     <Compile Include="Extension\StopWatchExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
