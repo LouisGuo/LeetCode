@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="104_Maximum_Depth_of_Binary_Tree.cs" />
     <Compile Include="226_Invert_Binary_Tree.cs" />
+    <Compile Include="237_Delete_Node_in_a_Linked List.cs" />
     <Compile Include="258_Add_Digits.cs" />
     <Compile Include="283_Move_Zeroes.cs" />
     <Compile Include="292_Nim_Game.cs" />
