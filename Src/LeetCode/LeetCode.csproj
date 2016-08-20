@@ -46,6 +46,7 @@
     <Compile Include="171_Excel_Sheet_Column_Number.cs" />
     <Compile Include="226_Invert_Binary_Tree.cs" />
     <Compile Include="237_Delete_Node_in_a_Linked List.cs" />
+    <Compile Include="24_Swap_Nodes_in_Pairs.cs" />
     <Compile Include="258_Add_Digits.cs" />
     <Compile Include="263_Ugly_Number.cs" />
     <Compile Include="283_Move_Zeroes.cs" />
