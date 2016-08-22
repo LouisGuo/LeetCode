@@ -45,6 +45,7 @@
     <Compile Include="141_Linked_List_Cycle.cs" />
     <Compile Include="142_Linked_List_Cycle_II.cs" />
     <Compile Include="14_Longest_Common_Prefix.cs" />
+    <Compile Include="155_Min_Stack.cs" />
     <Compile Include="168_Excel_Sheet_Column_Title.cs" />
     <Compile Include="169_Majority_Element.cs" />
     <Compile Include="171_Excel_Sheet_Column_Number.cs" />
