@@ -44,6 +44,7 @@
     <Compile Include="104_Maximum_Depth_of_Binary_Tree.cs" />
     <Compile Include="14_Longest_Common_Prefix.cs" />
     <Compile Include="168_Excel_Sheet_Column_Title.cs" />
+    <Compile Include="169_Majority_Element.cs" />
     <Compile Include="171_Excel_Sheet_Column_Number.cs" />
     <Compile Include="1_Two_Sum.cs" />
     <Compile Include="202_Happy_Number.cs" />
