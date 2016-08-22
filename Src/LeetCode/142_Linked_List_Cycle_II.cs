@@ -27,6 +27,33 @@ namespace LeetCode
             return null;
         }
 
+        public ListNode Sollution_Faster(ListNode head)
+        {
+            if (head != null)
+            {
+                if (head.next == head)
+                    return head;
+                var slow = head;
+                var fast = head;
+                var start = head;
+                while (fast != null && fast.next != null)
+                {
+                    slow = slow.next;
+                    fast = fast.next.next;
+                    if (slow == fast)
+                    {
+                        while (slow != start)
+                        {
+                            slow = slow.next;
+                            start = start.next;
+                        }
+                        return start;
+                    }
+                }
+            }
+            return null;
+        }
+
         public ListNode Sollution_Fast(ListNode head)
         {
             if (head != null)
