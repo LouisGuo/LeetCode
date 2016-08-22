@@ -49,6 +49,7 @@
     <Compile Include="24_Swap_Nodes_in_Pairs.cs" />
     <Compile Include="258_Add_Digits.cs" />
     <Compile Include="263_Ugly_Number.cs" />
+    <Compile Include="27_Remove_Element.cs" />
     <Compile Include="283_Move_Zeroes.cs" />
     <Compile Include="292_Nim_Game.cs" />
     <Compile Include="338_Counting_Bits.cs" />
