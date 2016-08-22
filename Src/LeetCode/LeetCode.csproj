@@ -73,6 +73,7 @@
     <Compile Include="58_Length_of_Last_Word.cs" />
     <Compile Include="67_Add_Binary.cs" />
     <Compile Include="70_Climbing_Stairs.cs" />
+    <Compile Include="7_Reverse_Integer.cs" />
     <Compile Include="83_Remove_Duplicates_from_Sorted_List.cs" />
     <Compile Include="Extension\StopWatchExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
