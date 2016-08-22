@@ -46,6 +46,7 @@
     <Compile Include="168_Excel_Sheet_Column_Title.cs" />
     <Compile Include="171_Excel_Sheet_Column_Number.cs" />
     <Compile Include="1_Two_Sum.cs" />
+    <Compile Include="202_Happy_Number.cs" />
     <Compile Include="203_Remove_Linked_List_Elements.cs" />
     <Compile Include="219_Contains_Duplicate_II.cs" />
     <Compile Include="226_Invert_Binary_Tree.cs" />
