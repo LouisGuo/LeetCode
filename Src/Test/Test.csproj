@@ -58,6 +58,7 @@
     <Compile Include="226_Invert_Binary_Tree_Tests.cs" />
     <Compile Include="ExcelSheetColumnNumberTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReverseLinkedListTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LeetCode\LeetCode.csproj">
