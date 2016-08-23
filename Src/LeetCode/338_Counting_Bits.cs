@@ -18,7 +18,7 @@ namespace LeetCode
      *     Can you do it like a boss? Do it without using any builtin function like __builtin_popcount in c++ or in any other language.
      * 
      */
-    public class Counting_Bits
+    public class CountingBits
     {
         public int[] Sollution(int num)
         {

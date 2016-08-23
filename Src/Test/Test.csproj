@@ -62,6 +62,7 @@
     <Compile Include="ReverseIntegerTests.cs" />
     <Compile Include="ReverseLinkedListTests.cs" />
     <Compile Include="ReverseVowelsofaStringTests.cs" />
+    <Compile Include="CommonTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LeetCode\LeetCode.csproj">
