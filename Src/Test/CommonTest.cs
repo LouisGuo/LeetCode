@@ -5,6 +5,7 @@ using LeetCode;
 using System.Collections.Generic;
 using System.Reflection;
 using System.IO;
+using System.Data;
 
 namespace Test
 {
@@ -48,6 +49,16 @@ namespace Test
                 }
             }
             result = result.OrderBy(p => p.ProblemNum).ToList();
+            var table = new DataTable("Problems");
+            table.Columns.Add(new DataColumn("Number", typeof(int)));
+            table.Columns.Add(new DataColumn("Title", typeof(string)));
+            foreach (var p in result)
+            {
+                var row = table.NewRow();
+                row["Number"] = p.ProblemNum;
+                row["Title"] = p.Title;
+                table.Rows.Add(row);
+            }
         }
     }
 }

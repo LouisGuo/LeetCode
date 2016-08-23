@@ -36,6 +36,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Data" />
   </ItemGroup>
   <Choose>
     <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
@@ -63,6 +64,7 @@
     <Compile Include="ReverseLinkedListTests.cs" />
     <Compile Include="ReverseVowelsofaStringTests.cs" />
     <Compile Include="CommonTest.cs" />
+    <Compile Include="ValidSudokuTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LeetCode\LeetCode.csproj">
