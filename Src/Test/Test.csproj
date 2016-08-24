@@ -67,6 +67,7 @@
     <Compile Include="ReverseLinkedListTests.cs" />
     <Compile Include="ReverseVowelsofaStringTests.cs" />
     <Compile Include="CommonTest.cs" />
+    <Compile Include="RotateArrayTests.cs" />
     <Compile Include="ValidSudokuTests.cs" />
   </ItemGroup>
   <ItemGroup>

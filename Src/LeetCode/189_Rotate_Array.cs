@@ -29,21 +29,38 @@ namespace LeetCode
         {
             if (k >= nums.Length)
                 k = k % nums.Length;
-            if (k > 0)
+            if (k != 0)
             {
-                var oldIndex = 0;
-                var newIndex = nums.Length - k;
-                var tempValue = nums[0];
-                for (int i = 1; i < nums.Length; i++)
+                var movedCount = RotateInner(nums, k, 0);
+                if (movedCount != nums.Length)
                 {
-                    var temp = nums[newIndex];
-                    nums[newIndex] = tempValue;
-                    oldIndex = newIndex;
-                    newIndex = (oldIndex - k >= 0) ? (oldIndex - k) : (nums.Length + oldIndex - k);
-                    tempValue = temp;
+                    for (int i = 1; i < nums.Length / movedCount; i++)
+                    {
+                        RotateInner(nums, k, i);
+                    }
                 }
-                nums[newIndex] = tempValue;
             }
+        }
+
+        private int RotateInner(int[] nums, int k, int start)
+        {
+            var movedCount = 1;
+            var oldIndex = start;
+            var newIndex = k + start;
+            var tempValue = nums[start];
+            for (int i = 1; newIndex != start && i < nums.Length; i++)
+            {
+                var temp = nums[newIndex];
+                nums[newIndex] = tempValue;
+                oldIndex = newIndex;
+                newIndex = oldIndex + k;
+                if (newIndex > nums.Length - 1)
+                    newIndex -= nums.Length;
+                tempValue = temp;
+                movedCount++;
+            }
+            nums[newIndex] = tempValue;
+            return movedCount;
         }
     }
 }
