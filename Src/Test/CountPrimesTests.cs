@@ -15,9 +15,10 @@ namespace LeetCode.Tests
         public void Sollution_FastTest()
         {
             var tool = new CountPrimes();
+            var result = 0;
             //var time = StopWatchExtension.Timing(() => { tool.Sollution(200000); });
             //var time1 = StopWatchExtension.Timing(() => { tool.Sollution_Fast(200000); });
-            var time2 = StopWatchExtension.Timing(() => { tool.Sollution_Faster(int.MaxValue); });
+            var time2 = StopWatchExtension.Timing(() => { result = tool.Sollution_FasterEvenMore(int.MaxValue); });
         }
     }
 }
