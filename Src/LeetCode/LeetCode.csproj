@@ -45,6 +45,7 @@
     <Compile Include="118_Pascal%27s_Triangle.cs" />
     <Compile Include="119_Pascal%27s_Triangle_II.cs" />
     <Compile Include="125_Valid_Palindrome.cs" />
+    <Compile Include="6_ZigZag_Conversion.cs" />
     <Compile Include="LinkedList\141_Linked_List_Cycle.cs" />
     <Compile Include="LinkedList\142_Linked_List_Cycle_II.cs" />
     <Compile Include="14_Longest_Common_Prefix.cs" />
