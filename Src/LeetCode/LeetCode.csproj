@@ -54,6 +54,7 @@
     <Compile Include="169_Majority_Element.cs" />
     <Compile Include="171_Excel_Sheet_Column_Number.cs" />
     <Compile Include="189_Rotate_Array.cs" />
+    <Compile Include="19_Remove_Nth_Node_From_End_of_List.cs" />
     <Compile Include="1_Two_Sum.cs" />
     <Compile Include="202_Happy_Number.cs" />
     <Compile Include="203_Remove_Linked_List_Elements.cs" />
