@@ -24,5 +24,13 @@ namespace LeetCode.Tests
             var tool = new PascalsTriangleII();
             var result = tool.Sollution_Fast(12);
         }
+
+        [TestMethod()]
+        public void Sollution_Memory()
+        {
+            var tool = new PascalsTriangleII();
+            var increase = GCExtension.MemoryIncrease(()=> { tool.Sollution(20); });
+            var increase1 = GCExtension.MemoryIncrease(() => { tool.Sollution_Fast(20); });
+        }
     }
 }

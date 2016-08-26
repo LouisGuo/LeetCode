@@ -12,10 +12,6 @@ namespace LeetCode
         {
             GC.Collect();
             GC.WaitForPendingFinalizers();
-            while (GC.WaitForFullGCComplete() != GCNotificationStatus.Succeeded)
-            {
-
-            }
             var start = GC.GetTotalMemory(false);
             action();
             var end = GC.GetTotalMemory(false);

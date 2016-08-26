@@ -74,8 +74,8 @@ namespace LeetCode.Tests
         public void SollutionTest_Memory()
         {
             var tool = new RotateArray();
-            var length = 12345678;
-            var k = 1234567;
+            var length = 1234;
+            var k = 123;
             var array = new int[length];
             for (int i = 0; i < length; i++)
             {

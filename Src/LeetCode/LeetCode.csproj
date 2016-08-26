@@ -47,6 +47,7 @@
     <Compile Include="125_Valid_Palindrome.cs" />
     <Compile Include="231_Power_of_Two.cs" />
     <Compile Include="6_ZigZag_Conversion.cs" />
+    <Compile Include="9_Palindrome_Number.cs" />
     <Compile Include="Extension\GCExtension.cs" />
     <Compile Include="LinkedList\141_Linked_List_Cycle.cs" />
     <Compile Include="LinkedList\142_Linked_List_Cycle_II.cs" />
