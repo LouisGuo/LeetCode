@@ -2,7 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using LeetCode;
 
-namespace Test
+namespace LeetCode.Tests
 {
     [TestClass]
     public class Reverse_String_Test

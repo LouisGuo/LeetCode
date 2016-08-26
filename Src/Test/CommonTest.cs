@@ -8,7 +8,7 @@ using System.IO;
 using System.Data;
 using System.Collections;
 
-namespace Test
+namespace LeetCode.Tests
 {
     [TestClass]
     public class CommonTest
