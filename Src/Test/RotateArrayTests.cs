@@ -69,5 +69,20 @@ namespace LeetCode.Tests
             var time = StopWatchExtension.Timing(() => { tool.Sollution(array, k); });
             var time1 = StopWatchExtension.Timing(() => { tool.Sollution_Fast(array, k); });
         }
+
+        [TestMethod()]
+        public void SollutionTest_Memory()
+        {
+            var tool = new RotateArray();
+            var length = 12345678;
+            var k = 1234567;
+            var array = new int[length];
+            for (int i = 0; i < length; i++)
+            {
+                array[i] = i;
+            }
+            var increase = GCExtension.MemoryIncrease(() => { tool.Sollution(array, k); });
+            var increase1 = GCExtension.MemoryIncrease(() => { tool.Sollution_Fast(array, k); });
+        }
     }
 }
