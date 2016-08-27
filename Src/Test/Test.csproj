@@ -60,6 +60,7 @@
     <Compile Include="CountPrimesTests.cs" />
     <Compile Include="ExcelSheetColumnNumberTests.cs" />
     <Compile Include="FirstBadVersionTests.cs" />
+    <Compile Include="GuessNumberHigherorLowerTests.cs" />
     <Compile Include="LinkedListCycleIITests.cs" />
     <Compile Include="LinkedList\LinkedListRandomNodeTests.cs" />
     <Compile Include="LongestSubstringWithoutRepeatingCharactersTests.cs" />
