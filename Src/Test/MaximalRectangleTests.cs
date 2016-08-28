@@ -25,9 +25,12 @@ namespace LeetCode.Tests
                     sample[i, j] = split[i % split.Length][j % split[0].Length];
                 }
             }
-            var result = tool.Sollution(sample);
-            var cpu = StopWatchExtension.Timing(() => { tool.Sollution(sample); });
-            var memory = GCExtension.MemoryIncrease(() => { tool.Sollution(sample); });
+            //var result = tool.Sollution(sample);
+            //var cpu = StopWatchExtension.Timing(() => { tool.Sollution(sample); });
+            //var memory = GCExtension.MemoryIncrease(() => { tool.Sollution(sample); });
+
+            var cpu1 = StopWatchExtension.Timing(() => { tool.Sollution_Fast(sample); });
+            var memory1 = GCExtension.MemoryIncrease(() => { tool.Sollution_Fast(sample); });
         }
     }
 }
