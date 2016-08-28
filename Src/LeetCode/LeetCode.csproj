@@ -52,6 +52,7 @@
     <Compile Include="374_Guess_Number_Higher_or_Lower.cs" />
     <Compile Include="3_Longest_Substring_Without_Repeating_Characters.cs" />
     <Compile Include="6_ZigZag_Conversion.cs" />
+    <Compile Include="85_Maximal_Rectangle.cs" />
     <Compile Include="9_Palindrome_Number.cs" />
     <Compile Include="Extension\GCExtension.cs" />
     <Compile Include="LinkedList\141_Linked_List_Cycle.cs" />
