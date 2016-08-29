@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class LinkedListCycleII
     {
-        public ListNode Sollution(ListNode head)
+        public ListNode Solution(ListNode head)
         {
             if (head != null)
             {
@@ -27,7 +27,7 @@ namespace LeetCode
             return null;
         }
 
-        public ListNode Sollution_Faster(ListNode head)
+        public ListNode Solution_Faster(ListNode head)
         {
             if (head != null)
             {
@@ -54,7 +54,7 @@ namespace LeetCode
             return null;
         }
 
-        public ListNode Sollution_Fast(ListNode head)
+        public ListNode Solution_Fast(ListNode head)
         {
             if (head != null)
             {

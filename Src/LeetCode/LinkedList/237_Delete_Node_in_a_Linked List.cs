@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class DeleteNodeinaLinkedList
     {
-        public void Sollution(ListNode node)
+        public void Solution(ListNode node)
         {
             if (node == null || node.next == null)
                 return;

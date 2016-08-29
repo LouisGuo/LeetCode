@@ -8,14 +8,14 @@ namespace LeetCode
 {
     public class MaximumDepthofBinaryTree
     {
-        public int Sollution(TreeNode root)
+        public int Solution(TreeNode root)
         {
             if (root == null)
                 return 0;
             if (root.left == null && root.right == null)
                 return 1;
-            var leftMax = 1 + (root.left == null ? 0 : Sollution(root.left));
-            var rightMax = 1 + (root.right == null ? 0 : Sollution(root.right));
+            var leftMax = 1 + (root.left == null ? 0 : Solution(root.left));
+            var rightMax = 1 + (root.right == null ? 0 : Solution(root.right));
             return leftMax > rightMax ? leftMax : rightMax;
         }
 

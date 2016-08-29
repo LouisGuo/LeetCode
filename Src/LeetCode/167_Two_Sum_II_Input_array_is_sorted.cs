@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class TwoSumIIInputarrayissorted
     {
-        public int[] Sollution(int[] nums, int target)
+        public int[] Solution(int[] nums, int target)
         {
             var result = new int[2];
             for (int i = 0; i < nums.Length; i++)
@@ -22,7 +22,7 @@ namespace LeetCode
             return result;
         }
 
-        public int[] Sollution_Fast(int[] nums, int target)
+        public int[] Solution_Fast(int[] nums, int target)
         {
             var left = 0;
             var tail = nums.Length - 1;

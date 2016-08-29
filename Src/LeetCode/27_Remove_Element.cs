@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class RemoveElement
     {
-        public int Sollution(int[] nums, int val)
+        public int Solution(int[] nums, int val)
         {
             var head = 0;
             var tail = nums.Length - 1;

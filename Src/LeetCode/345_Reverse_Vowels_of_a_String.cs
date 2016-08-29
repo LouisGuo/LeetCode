@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class ReverseVowelsofaString
     {
-        public string Sollution(string s)
+        public string Solution(string s)
         {
             var flags = "aoeiuAOEIU";
             var result = new StringBuilder(s);
@@ -36,7 +36,7 @@ namespace LeetCode
             return result.ToString();
         }
 
-        public string Sollution_Fast(string s)
+        public string Solution_Fast(string s)
         {
             var flags = new char[] { 'a', 'o', 'e', 'i', 'u', 'A', 'O', 'E', 'I', 'U' };
             var result = new StringBuilder(s);
@@ -64,7 +64,7 @@ namespace LeetCode
             return result.ToString();
         }
 
-        public string Sollution_Slower(string s)
+        public string Solution_Slower(string s)
         {
             var flags = new char[] { 'a', 'o', 'e', 'i', 'u', 'A', 'O', 'E', 'I', 'U' };
             var result = new StringBuilder(s);

@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class UglyNumber
     {
-        public bool Sollution(int num)
+        public bool Solution(int num)
         {
             if (num < 1)
                 return false;

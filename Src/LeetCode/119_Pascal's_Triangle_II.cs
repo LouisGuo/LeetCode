@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class PascalsTriangleII
     {
-        public IList<int> Sollution(int rowIndex)
+        public IList<int> Solution(int rowIndex)
         {
             var result = new List<int>();
             var last = new List<int>();
@@ -36,7 +36,7 @@ namespace LeetCode
             return result;
         }
 
-        public IList<int> Sollution_Fast(int rowIndex)
+        public IList<int> Solution_Fast(int rowIndex)
         {
             var result = new int[rowIndex + 1];
             if (rowIndex >= 0)

@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class ReverseInteger
     {
-        public int Sollution(int x)
+        public int Solution(int x)
         {
             var isPositive = x >= 0;
             var strX = x.ToString();
@@ -23,7 +23,7 @@ namespace LeetCode
             return (int)result;
         }
 
-        public int Sollution_Fast(int x)
+        public int Solution_Fast(int x)
         {
             var stack = new Stack<double>();
             while (x != 0)

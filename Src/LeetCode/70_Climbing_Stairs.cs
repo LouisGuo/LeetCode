@@ -8,14 +8,14 @@ namespace LeetCode
 {
     public class ClimbingStairs
     {
-        public int Sollution(int n)
+        public int Solution(int n)
         {
             if (n < 3)
                 return n;
-            return Sollution(n - 1) + Sollution(n - 2);
+            return Solution(n - 1) + Solution(n - 2);
         }
 
-        public int Sollution_Fast(int n)
+        public int Solution_Fast(int n)
         {
             var middleResults = new int[n];
             for (int i = 0; i < 3 && i < n; i++)
@@ -37,7 +37,7 @@ namespace LeetCode
             }
         }
 
-        public int Sollution_Faster(int n)
+        public int Solution_Faster(int n)
         {
             if (n < 3)
                 return n;

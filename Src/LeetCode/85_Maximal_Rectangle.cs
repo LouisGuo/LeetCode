@@ -9,7 +9,7 @@ namespace LeetCode
 {
     public class MaximalRectangle
     {
-        public int Sollution(char[,] matrix)
+        public int Solution(char[,] matrix)
         {
             var result = 0;
             var x = matrix.GetLength(0);
@@ -34,7 +34,7 @@ namespace LeetCode
             return result;
         }
 
-        public int Sollution_Fast(char[,] matrix)
+        public int Solution_Fast(char[,] matrix)
         {
             var result = 0;
             var x = matrix.GetLength(0);

@@ -8,10 +8,10 @@ namespace LeetCode.Tests
     public class Reverse_String_Test
     {
         [TestMethod]
-        public void Sollution_Test()
+        public void Solution_Test()
         {
             var tool = new ReverseString();
-            var result = tool.Sollution("hello");
+            var result = tool.Solution("hello");
             Assert.AreEqual(result, "olleh");
         }
     }

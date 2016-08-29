@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class LongestCommonPrefix
     {
-        public string Sollution(string[] strs)
+        public string Solution(string[] strs)
         {
             var commonPrefix = String.Empty;
             if (strs != null && strs.Length > 0)

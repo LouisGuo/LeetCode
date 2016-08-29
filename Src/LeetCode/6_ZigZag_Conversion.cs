@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class ZigZagConversion
     {
-        public string Sollution(string s, int numRows)
+        public string Solution(string s, int numRows)
         {
             if (s != null && s.Length > 2 && numRows > 1)
             {

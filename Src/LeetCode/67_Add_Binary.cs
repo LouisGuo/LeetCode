@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class AddBinary
     {
-        public string Sollution(string a, string b)
+        public string Solution(string a, string b)
         {
             var result = String.Empty;
             var lastIncrease = false;

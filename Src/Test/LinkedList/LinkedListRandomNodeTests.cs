@@ -12,7 +12,7 @@ namespace LeetCode.Tests
     public class LinkedListRandomNodeTests
     {
         [TestMethod()]
-        public void SollutionTest()
+        public void SolutionTest()
         {
             var head = new ListNode(1);
             var current = head;
@@ -25,7 +25,7 @@ namespace LeetCode.Tests
             var results = new List<int>();
             for (int i = 0; i < 100000; i++)
             {
-                results.Add(tool.Sollution().val);
+                results.Add(tool.Solution().val);
                 System.Threading.Thread.Sleep(123);
             }
             var re = results.GroupBy(t => t)

@@ -12,10 +12,10 @@ namespace LeetCode.Tests
     public class ReverseVowelsofaStringTests
     {
         [TestMethod()]
-        public void Sollution_SlowerTest()
+        public void Solution_SlowerTest()
         {
             var tool = new ReverseVowelsofaString();
-            var result = tool.Sollution_Slower("hello");
+            var result = tool.Solution_Slower("hello");
         }
     }
 }

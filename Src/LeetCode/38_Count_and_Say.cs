@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class CountandSay
     {
-        public string Sollution(int n)
+        public string Solution(int n)
         {
             var result = "1";
             for (int i = 2; i <= n; i++)

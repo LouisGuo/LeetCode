@@ -9,7 +9,7 @@ namespace LeetCode
 {
     public class ValidSudoku
     {
-        public bool Sollution(char[,] board)
+        public bool Solution(char[,] board)
         {
             var rowLength = board.GetLength(0);
             var collumLength = board.GetLength(1);
@@ -53,7 +53,7 @@ namespace LeetCode
             return true;
         }
 
-        public bool Sollution_Fast(char[,] board)
+        public bool Solution_Fast(char[,] board)
         {
             var rowLength = board.GetLength(0);
             var collumLength = board.GetLength(1);

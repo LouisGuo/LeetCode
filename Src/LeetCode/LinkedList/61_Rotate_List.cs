@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class RotateList
     {
-        public ListNode Sollution(ListNode head, int k)
+        public ListNode Solution(ListNode head, int k)
         {
             if (head != null && head.next != null && k > 0)
             {

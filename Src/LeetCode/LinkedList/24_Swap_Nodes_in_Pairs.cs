@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class SwapNodesinPairs
     {
-        public ListNode Sollution(ListNode head)
+        public ListNode Solution(ListNode head)
         {
             if (head == null || head.next == null)
                 return head;

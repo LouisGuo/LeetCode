@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class MoveZeroes
     {
-        public void Sollution(int[] nums)
+        public void Solution(int[] nums)
         {
             if (nums == null || nums.Length < 2)
                 return;

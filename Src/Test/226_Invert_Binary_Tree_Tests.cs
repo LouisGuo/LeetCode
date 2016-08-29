@@ -27,7 +27,7 @@ namespace LeetCode.Tests
             treeNode.right.left.right = new TreeNode(5);
             treeNode.right.left.right = new TreeNode(5);
             treeNode.right.left.right.right = new TreeNode(5);
-            var result = tool.Sollution(treeNode);
+            var result = tool.Solution(treeNode);
             Assert.AreEqual(3, result);
         }
     }

@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class RectangleArea
     {
-        public int Sollution(int A, int B, int C, int D, int E, int F, int G, int H)
+        public int Solution(int A, int B, int C, int D, int E, int F, int G, int H)
         {
             var a = Math.Max(A, E);
             var b = Math.Max(B, F);

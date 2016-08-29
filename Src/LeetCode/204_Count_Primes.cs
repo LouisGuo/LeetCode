@@ -9,7 +9,7 @@ namespace LeetCode
 {
     public class CountPrimes
     {
-        public int Sollution(int n)
+        public int Solution(int n)
         {
             if (n <= 2)
                 return 0;
@@ -39,7 +39,7 @@ namespace LeetCode
             return results.Count();
         }
 
-        public int Sollution_Fast(int n)
+        public int Solution_Fast(int n)
         {
             if (n <= 2)
                 return 0;
@@ -67,7 +67,7 @@ namespace LeetCode
             return result;
         }
 
-        public int Sollution_Faster(int n)
+        public int Solution_Faster(int n)
         {
             if (n <= 2)
                 return 0;
@@ -96,7 +96,7 @@ namespace LeetCode
             return result;
         }
 
-        public int Sollution_FasterEvenMore(int n)
+        public int Solution_FasterEvenMore(int n)
         {
             if (n <= 2)
                 return 0;
@@ -122,7 +122,7 @@ namespace LeetCode
             return result;
         }
 
-        public int Sollution_Fastest(int n)
+        public int Solution_Fastest(int n)
         {
             if (n <= 2)
                 return 0;

@@ -14,7 +14,7 @@ namespace LeetCode.Tests
     public class LinkedListCycleIITests
     {
         [TestMethod()]
-        public void Sollution_FastTest()
+        public void Solution_FastTest()
         {
             var listNode = new ListNode(1);
             listNode.next = new ListNode(2);
@@ -32,20 +32,20 @@ namespace LeetCode.Tests
             listNode.next.next.next.next.next.next.next.next.next.next.next = tail;
             tail.next = node;
             var tool = new LinkedListCycleII();
-            var result = tool.Sollution_Fast(listNode);
+            var result = tool.Solution_Fast(listNode);
         }
 
         [TestMethod()]
-        public void Sollution_FastTest1()
+        public void Solution_FastTest1()
         {
             var listNode = new ListNode(1);
             listNode.next = listNode;
             var tool = new LinkedListCycleII();
-            var result = tool.Sollution_Fast(listNode);
+            var result = tool.Solution_Fast(listNode);
         }
 
         [TestMethod()]
-        public void Sollution_FastTest2()
+        public void Solution_FastTest2()
         {
             var listNode = new ListNode(1);
             listNode.next = new ListNode(2);
@@ -62,7 +62,7 @@ namespace LeetCode.Tests
             var tail = new ListNode(12);
             listNode.next.next.next.next.next.next.next.next.next.next.next = tail; 
             var tool = new LinkedListCycleII();
-            var result = tool.Sollution_Fast(listNode);
+            var result = tool.Solution_Fast(listNode);
         }
     }
 }

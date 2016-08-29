@@ -12,10 +12,10 @@ namespace LeetCode.Tests
     public class ExcelSheetColumnNumberTests
     {
         [TestMethod()]
-        public void SollutionTest()
+        public void SolutionTest()
         {
             var tool = new ExcelSheetColumnNumber();
-            var result = tool.Sollution("AAA");
+            var result = tool.Solution("AAA");
             Assert.AreEqual(11,result);
         }
     }

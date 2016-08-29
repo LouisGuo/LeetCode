@@ -8,14 +8,14 @@ namespace LeetCode
 {
     public class SameTree
     {
-        public bool Sollution(TreeNode p, TreeNode q)
+        public bool Solution(TreeNode p, TreeNode q)
         {
             if (p == null && q == null)
                 return true;
             else if (p != null && q != null)
             {
                 if (p.val == q.val)
-                    return Sollution(p.left, q.left) && Sollution(p.right, q.right);
+                    return Solution(p.left, q.left) && Solution(p.right, q.right);
                 return false;
             }
             else

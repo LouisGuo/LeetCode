@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class ExcelSheetColumnNumber
     {
-        public int Sollution(string s)
+        public int Solution(string s)
         {
             if (s == null || s.Length == 0)
                 return 0;

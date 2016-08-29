@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class RemoveDuplicatesfromSortedList
     {
-        public ListNode Sollution(ListNode head)
+        public ListNode Solution(ListNode head)
         {
             var current = head;
             while (current != null && current.next != null)

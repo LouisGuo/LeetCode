@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class AddDigits
     {
-        public int Sollution(int num)
+        public int Solution(int num)
         {
             if (num < 10)
                 return num;
@@ -25,7 +25,7 @@ namespace LeetCode
             return num;
         }
 
-        public int Sollution_Fast(int num)
+        public int Solution_Fast(int num)
         {
             if (num < 10)
                 return num;

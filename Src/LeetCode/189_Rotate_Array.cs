@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class RotateArray
     {
-        public void Sollution(int[] nums, int k)
+        public void Solution(int[] nums, int k)
         {
             if (k >= nums.Length)
                 k = k % nums.Length;
@@ -21,11 +21,11 @@ namespace LeetCode
                 }
                 nums[0] = temp;
                 k--;
-                Sollution(nums, k);
+                Solution(nums, k);
             }
         }
 
-        public void Sollution_Fast(int[] nums, int k)
+        public void Solution_Fast(int[] nums, int k)
         {
             if (k >= nums.Length)
                 k = k % nums.Length;

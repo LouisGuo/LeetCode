@@ -13,7 +13,7 @@ namespace LeetCode.Tests
     public class MaximumDepthofBinaryTreeTests
     {
         [TestMethod]
-        public void SollutionTest()
+        public void SolutionTest()
         {
             var tool = new MaximumDepthofBinaryTree();
             var treeNode = new TreeNode(1);
@@ -27,7 +27,7 @@ namespace LeetCode.Tests
             treeNode.right.left.right = new TreeNode(5);
             treeNode.right.left.right = new TreeNode(5);
             treeNode.right.left.right.right = new TreeNode(5);
-            var result = tool.Sollution(treeNode);
+            var result = tool.Solution(treeNode);
             Assert.AreEqual(3, result);
         }
     }

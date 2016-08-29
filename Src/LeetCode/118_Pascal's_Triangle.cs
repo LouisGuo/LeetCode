@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class PascalsTriangle
     {
-        public IList<IList<int>> Sollution(int numRows)
+        public IList<IList<int>> Solution(int numRows)
         {
             var result = new List<IList<int>>();
             if (numRows > 0)

@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class ValidPalindrome
     {
-        public bool Sollution(string s)
+        public bool Solution(string s)
         {
             if (s == null || s.Length < 2)
                 return true;
@@ -38,7 +38,7 @@ namespace LeetCode
             return true;
         }
 
-        public bool Sollution_Fast(string s)
+        public bool Solution_Fast(string s)
         {
             if (s == null || s.Length < 2)
                 return true;

@@ -13,7 +13,7 @@ namespace LeetCode
      */
     public class NimGame
     {
-        public bool Sollution(int n)
+        public bool Solution(int n)
         {
             return n % 4 != 0;
         }

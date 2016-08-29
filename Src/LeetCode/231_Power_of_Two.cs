@@ -8,14 +8,14 @@ namespace LeetCode
 {
     public class PowerofTwo
     {
-        public bool Sollution(int n)
+        public bool Solution(int n)
         {
             if (n <= 0)
                 return false;
-            return n == 1 || (n % 2 == 0 && Sollution(n / 2));
+            return n == 1 || (n % 2 == 0 && Solution(n / 2));
         }
 
-        public bool Sollution_Fast(int n)
+        public bool Solution_Fast(int n)
         {
             if (n <= 0)
                 return false;

@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class ContainsDuplicateII
     {
-        public bool Sollution(int[] nums, int k)
+        public bool Solution(int[] nums, int k)
         {
             if (nums.Length > 1)
             {
@@ -27,7 +27,7 @@ namespace LeetCode
             return false;
         }
 
-        public bool Sollution_Fast(int[] nums, int k)
+        public bool Solution_Fast(int[] nums, int k)
         {
             if (nums.Length > 1)
             {

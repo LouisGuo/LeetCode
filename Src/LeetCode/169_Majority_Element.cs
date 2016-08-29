@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class MajorityElement
     {
-        public int Sollution(int[] nums)
+        public int Solution(int[] nums)
         {
             var countDic = new Dictionary<int, int>();
             var lessCount = nums.Length / 2;

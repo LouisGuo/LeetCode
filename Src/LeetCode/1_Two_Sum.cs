@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class TwoSum
     {
-        public int[] Sollution(int[] nums, int target)
+        public int[] Solution(int[] nums, int target)
         {
             var result = new int[2];
             for (int i = 0; i < nums.Length; i++)

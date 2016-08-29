@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class LargestRectangleinHistogram
     {
-        public int Sollution(int[] heights)
+        public int Solution(int[] heights)
         {
             var result = 0;
             for (int i = 0; i < heights.Length; i++)

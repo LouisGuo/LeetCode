@@ -8,13 +8,13 @@ namespace LeetCode
 {
     public class InvertBinaryTree
     {
-        public TreeNode Sollution(TreeNode root)
+        public TreeNode Solution(TreeNode root)
         {
             if (root == null)
                 return null;
             var temp = root.left;
-            root.left = Sollution(root.right);
-            root.right = Sollution(temp);
+            root.left = Solution(root.right);
+            root.right = Solution(temp);
             return root;
         }
 

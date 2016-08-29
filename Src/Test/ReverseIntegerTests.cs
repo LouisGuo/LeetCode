@@ -12,10 +12,10 @@ namespace LeetCode.Tests
     public class ReverseIntegerTests
     {
         [TestMethod()]
-        public void SollutionTest()
+        public void SolutionTest()
         {
             var tool = new ReverseInteger();
-            var result = tool.Sollution(-2147483648);
+            var result = tool.Solution(-2147483648);
         }
     }
 }

@@ -15,7 +15,7 @@ namespace LeetCode
             this.head = head;
         }
 
-        public ListNode Sollution()
+        public ListNode Solution()
         {
             var result = head;
             var current = head.next;

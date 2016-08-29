@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class FirstUniqueCharacterinaString
     {
-        public int Sollution(string s)
+        public int Solution(string s)
         {
             if (s != null)
             {
@@ -30,7 +30,7 @@ namespace LeetCode
             return -1;
         }
 
-        public int Sollution_Fast(string s)
+        public int Solution_Fast(string s)
         {
             if (s != null && !s.Equals(String.Empty))
             {

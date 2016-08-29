@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class PalindromeNumber
     {
-        public bool Sollution(int x)
+        public bool Solution(int x)
         {
             if (x < 0)
                 return false;

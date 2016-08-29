@@ -17,14 +17,14 @@ namespace LeetCode.Tests
         {
             public Problem()
             {
-                this.Sollutions = new List<string>();
+                this.Solutions = new List<string>();
             }
 
             public string Title { get; set; }
 
             public int ProblemNum { get; set; }
 
-            public List<String> Sollutions { get; set; }
+            public List<String> Solutions { get; set; }
         }
 
         [TestMethod]

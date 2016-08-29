@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class FirstBadVersion
     {
-        public int Sollution(int n)
+        public int Solution(int n)
         {
             while (--n > 0)
             {
@@ -18,7 +18,7 @@ namespace LeetCode
             return 1;
         }
 
-        public int Sollution_Fast(int n)
+        public int Solution_Fast(int n)
         {
             double left = 1d;
             double right = n;

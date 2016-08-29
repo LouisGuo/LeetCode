@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class ReverseLinkedList
     {
-        public ListNode Sollution(ListNode head)
+        public ListNode Solution(ListNode head)
         {
             if (head != null)
             {

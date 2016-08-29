@@ -12,7 +12,7 @@ namespace LeetCode.Tests
     public class ValidSudokuTests
     {
         [TestMethod()]
-        public void SollutionTest()
+        public void SolutionTest()
         {
             var tool = new ValidSudoku();
             //var board = new char[,] { { '.','.','4','.','.','.','6','3','.' },
@@ -33,7 +33,7 @@ namespace LeetCode.Tests
                                       { '.','.','.','5','4','.','.','.','.' },
                                       { '3','.','.','.','.','.','4','2','.' },
                                       { '.','.','.','2','7','.','6','.','.' }};
-            var result = tool.Sollution(board);
+            var result = tool.Solution(board);
         }
     }
 }

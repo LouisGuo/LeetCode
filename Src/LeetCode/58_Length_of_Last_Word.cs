@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class LengthofLastWord
     {
-        public int Sollution(string s)
+        public int Solution(string s)
         {
             var result = 0;
             if (s != null && !s.Equals(String.Empty))

@@ -13,14 +13,14 @@ namespace LeetCode.Tests
     public class ReverseLinkedListTests
     {
         [TestMethod()]
-        public void SollutionTest()
+        public void SolutionTest()
         {
             var tool = new ReverseLinkedList();
             var list = new ListNode(1);
             list.next = new ListNode(2);
             list.next.next = new ListNode(3);
             list.next.next.next = new ListNode(4);
-            var result = tool.Sollution(list);
+            var result = tool.Solution(list);
         }
     }
 }

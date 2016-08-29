@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class ExcelSheetColumnTitle
     {
-        public string Sollution(int n)
+        public string Solution(int n)
         {
             if (n < 0)
                 return String.Empty;

@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class RemoveLinkedListElements
     {
-        public ListNode Sollution(ListNode head, int val)
+        public ListNode Solution(ListNode head, int val)
         {
             while (head != null && head.val == val)
             {

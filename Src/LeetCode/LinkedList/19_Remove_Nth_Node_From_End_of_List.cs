@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class RemoveNthNodeFromEndofList
     {
-        public ListNode Sollution(ListNode head, int n)
+        public ListNode Solution(ListNode head, int n)
         {
             var current = head;
             var count = 0;
@@ -40,7 +40,7 @@ namespace LeetCode
             return head;
         }
 
-        public ListNode Sollution_Fast(ListNode head, int n)
+        public ListNode Solution_Fast(ListNode head, int n)
         {
             var current = head;
             var temp = head;

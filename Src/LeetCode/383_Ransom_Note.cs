@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class RansomNote
     {
-        public bool Sollution(string ransomNote, string magazine)
+        public bool Solution(string ransomNote, string magazine)
         {
             var sb = new StringBuilder(magazine);
             foreach (var ch in ransomNote)

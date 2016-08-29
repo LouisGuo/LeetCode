@@ -9,7 +9,7 @@ namespace LeetCode
 {
     public class LongestSubstringWithoutRepeatingCharacters
     {
-        public int Sollution(string s)
+        public int Solution(string s)
         {
             if (s == null || s.Length == 0)
                 return 0;
@@ -61,7 +61,7 @@ namespace LeetCode
             return max;
         }
 
-        public int Sollution_Fast(string s)
+        public int Solution_Fast(string s)
         {
             if (s == null || s.Length == 0)
                 return 0;

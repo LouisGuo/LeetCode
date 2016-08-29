@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class ValidAnagram
     {
-        public bool Sollution(string s, string t)
+        public bool Solution(string s, string t)
         {
             if (s != null && t != null && s.Length == t.Length)
             {

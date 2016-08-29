@@ -12,10 +12,10 @@ namespace LeetCode.Tests
     public class GuessNumberHigherorLowerTests
     {
         [TestMethod()]
-        public void SollutionTest()
+        public void SolutionTest()
         {
             var tool = new GuessNumberHigherorLower();
-            var result = tool.Sollution(10);
+            var result = tool.Solution(10);
         }
     }
 }

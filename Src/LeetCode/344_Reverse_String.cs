@@ -8,12 +8,12 @@ namespace LeetCode
 {
     public class ReverseString
     {
-        public string Sollution(string s)
+        public string Solution(string s)
         {
             return new String(s.ToArray().Reverse().ToArray());
         }
 
-        public string Sollution_Fast(string s)
+        public string Solution_Fast(string s)
         {
             if (s == null || s.Length < 2)
                 return s;

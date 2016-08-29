@@ -9,7 +9,7 @@ namespace LeetCode
 {
     public class ContainsDuplicate
     {
-        public bool Sollution(int[] nums)
+        public bool Solution(int[] nums)
         {
             if (nums != null && nums.Length > 1)
             {
@@ -25,12 +25,12 @@ namespace LeetCode
             return false;
         }
 
-        public bool Sollution_Fast(int[] nums)
+        public bool Solution_Fast(int[] nums)
         {
             return nums != null && nums.Length != nums.Distinct().Count();
         }
 
-        public bool Sollution_Faster(int[] nums)
+        public bool Solution_Faster(int[] nums)
         {
             if (nums != null && nums.Length > 1)
             {
@@ -56,7 +56,7 @@ namespace LeetCode
             return false;
         }
 
-        public bool Sollution_FasterEvenMore(int[] nums)
+        public bool Solution_FasterEvenMore(int[] nums)
         {
             if (nums != null && nums.Length > 1)
             {

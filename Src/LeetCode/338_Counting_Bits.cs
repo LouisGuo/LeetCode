@@ -20,7 +20,7 @@ namespace LeetCode
      */
     public class CountingBits
     {
-        public int[] Sollution(int num)
+        public int[] Solution(int num)
         {
             var result = new int[num + 1];
             var numCount = (int)Math.Log(num + 1, 2) + 1;
@@ -39,7 +39,7 @@ namespace LeetCode
             return result;
         }
 
-        public int[] Sollution_Fast(int num)
+        public int[] Solution_Fast(int num)
         {
             var result = new int[num + 1];
             if (num > 0)

@@ -12,10 +12,10 @@ namespace LeetCode.Tests
     public class FirstBadVersionTests
     {
         [TestMethod()]
-        public void Sollution_FastTest()
+        public void Solution_FastTest()
         {
             var tool = new FirstBadVersion();
-            var result = tool.Sollution_Fast(2126753390);
+            var result = tool.Solution_Fast(2126753390);
         }
     }
 }

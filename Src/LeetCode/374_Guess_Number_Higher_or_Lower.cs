@@ -8,7 +8,7 @@ namespace LeetCode
 {
     public class GuessNumberHigherorLower
     {
-        public int Sollution(int n)
+        public int Solution(int n)
         {
             var left = 1;
             var right = n;
