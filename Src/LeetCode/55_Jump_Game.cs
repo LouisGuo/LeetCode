@@ -31,5 +31,20 @@ namespace LeetCode
             }
             return true;
         }
+
+        public bool Solution_Fast(int[] nums)
+        {
+            if (nums == null || nums.Length <= 1)
+                return true;
+            var jump = 0;
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (nums[i] > --jump)
+                    jump = nums[i];
+                if (jump == 0 && i != nums.Length - 1)
+                    return false;
+            }
+            return true;
+        }
     }
 }
