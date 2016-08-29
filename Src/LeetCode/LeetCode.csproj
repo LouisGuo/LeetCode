@@ -55,6 +55,7 @@
     <Compile Include="374_Guess_Number_Higher_or_Lower.cs" />
     <Compile Include="3_Longest_Substring_Without_Repeating_Characters.cs" />
     <Compile Include="54_Spiral_Matrix.cs" />
+    <Compile Include="59_Spiral_Matrix_II.cs" />
     <Compile Include="6_ZigZag_Conversion.cs" />
     <Compile Include="84_Largest_Rectangle_in_Histogram.cs" />
     <Compile Include="85_Maximal_Rectangle.cs" />
