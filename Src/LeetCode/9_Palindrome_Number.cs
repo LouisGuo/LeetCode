@@ -14,7 +14,14 @@ namespace LeetCode
                 return false;
             else
             {
-
+                var xStr = x.ToString();
+                var left = 0;
+                var right = xStr.Length - 1;
+                while (left < right)
+                {
+                    if (xStr[left++] != xStr[right--])
+                        return false;
+                }
                 return true;
             }
         }
