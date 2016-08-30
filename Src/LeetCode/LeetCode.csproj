@@ -98,6 +98,7 @@
     <Compile Include="387_First_Unique_Character_in_a_String.cs" />
     <Compile Include="38_Count_and_Say.cs" />
     <Compile Include="58_Length_of_Last_Word.cs" />
+    <Compile Include="LinkedList\328_Odd_Even_Linked_List.cs" />
     <Compile Include="LinkedList\382_Linked_List_Random_Node.cs" />
     <Compile Include="LinkedList\61_Rotate_List.cs" />
     <Compile Include="67_Add_Binary.cs" />
