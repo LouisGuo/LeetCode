@@ -54,6 +54,7 @@
     <Compile Include="290_Word_Pattern.cs" />
     <Compile Include="374_Guess_Number_Higher_or_Lower.cs" />
     <Compile Include="3_Longest_Substring_Without_Repeating_Characters.cs" />
+    <Compile Include="53_Maximum_Subarray.cs" />
     <Compile Include="54_Spiral_Matrix.cs" />
     <Compile Include="55_Jump_Game.cs" />
     <Compile Include="59_Spiral_Matrix_II.cs" />
