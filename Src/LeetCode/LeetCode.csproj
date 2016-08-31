@@ -115,6 +115,7 @@
     <Compile Include="67_Add_Binary.cs" />
     <Compile Include="70_Climbing_Stairs.cs" />
     <Compile Include="7_Reverse_Integer.cs" />
+    <Compile Include="LinkedList\82_Remove_Duplicates_from_Sorted_List_II.cs" />
     <Compile Include="LinkedList\83_Remove_Duplicates_from_Sorted_List.cs" />
     <Compile Include="Extension\StopWatchExtension.cs" />
     <Compile Include="LinkedList\ListNode.cs" />
