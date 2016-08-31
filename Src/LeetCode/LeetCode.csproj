@@ -53,6 +53,7 @@
     <Compile Include="232_Implement_Queue_using_Stacks.cs" />
     <Compile Include="26_Remove_Duplicates_from_Sorted_Array.cs" />
     <Compile Include="290_Word_Pattern.cs" />
+    <Compile Include="35_Search_Insert_Position.cs" />
     <Compile Include="374_Guess_Number_Higher_or_Lower.cs" />
     <Compile Include="3_Longest_Substring_Without_Repeating_Characters.cs" />
     <Compile Include="53_Maximum_Subarray.cs" />
