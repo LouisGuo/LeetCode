@@ -18,28 +18,29 @@ namespace LeetCode
                 while (current != null)
                 {
                     queue.Enqueue(current);
+                    stack.Push(current);
                     current = current.next;
-                    if (current != null)
-                    {
-                        stack.Push(current);
-                        current = current.next;
-                    }
                 }
+                head = queue.Dequeue();
                 head.next = stack.Pop();
                 current = head.next;
-                while (queue.Count > 0 && stack.Count > 0)
+                while (queue.Count > 0)
                 {
-                    current.next = queue.Dequeue();
+                    var queueNode = queue.Dequeue();
+                    var stackNode = stack.Pop();
+                    if (current.Equals(queueNode))
+                        break;
+                    current.next = queueNode;
                     current = current.next;
-                    current.next = stack.Pop();
-                    current = current.next;
+                    if (!stackNode.Equals(queueNode))
+                    {
+                        current.next = stackNode;
+                        current = current.next;
+                    }
+                    else
+                        break;
                 }
-                if (queue.Count > 0)
-                    current.next = queue.Dequeue();
-                else if (stack.Count > 0)
-                    current.next = stack.Pop();
-                if (current.next != null)
-                    current.next.next = null;
+                current.next = null;
             }
         }
     }

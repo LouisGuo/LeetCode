@@ -18,8 +18,8 @@ namespace LeetCode.Tests
             var sample = new ListNode(1);
             sample.next = new ListNode(2);
             sample.next.next = new ListNode(3);
-            sample.next.next.next = new ListNode(4); 
-             tool.Solution(sample);
+            sample.next.next.next = new ListNode(4);
+            tool.Solution(sample);
         }
     }
 }
