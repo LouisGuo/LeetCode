@@ -46,6 +46,7 @@
     <Compile Include="119_Pascal%27s_Triangle_II.cs" />
     <Compile Include="125_Valid_Palindrome.cs" />
     <Compile Include="136_Single_Number.cs" />
+    <Compile Include="146_LRU_Cache.cs" />
     <Compile Include="165_Compare_Version_Numbers.cs" />
     <Compile Include="223_Rectangle_Area.cs" />
     <Compile Include="225_Implement_Stack_using_Queues.cs" />
