@@ -51,6 +51,7 @@
     <Compile Include="225_Implement_Stack_using_Queues.cs" />
     <Compile Include="231_Power_of_Two.cs" />
     <Compile Include="232_Implement_Queue_using_Stacks.cs" />
+    <Compile Include="268_Missing_Number.cs" />
     <Compile Include="26_Remove_Duplicates_from_Sorted_Array.cs" />
     <Compile Include="290_Word_Pattern.cs" />
     <Compile Include="35_Search_Insert_Position.cs" />
