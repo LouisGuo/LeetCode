@@ -44,10 +44,10 @@
     <Compile Include="104_Maximum_Depth_of_Binary_Tree.cs" />
     <Compile Include="118_Pascal%27s_Triangle.cs" />
     <Compile Include="119_Pascal%27s_Triangle_II.cs" />
-    <Compile Include="125_Valid_Palindrome.cs" />
+    <Compile Include="String\125_Valid_Palindrome.cs" />
     <Compile Include="136_Single_Number.cs" />
     <Compile Include="146_LRU_Cache.cs" />
-    <Compile Include="165_Compare_Version_Numbers.cs" />
+    <Compile Include="String\165_Compare_Version_Numbers.cs" />
     <Compile Include="223_Rectangle_Area.cs" />
     <Compile Include="225_Implement_Stack_using_Queues.cs" />
     <Compile Include="231_Power_of_Two.cs" />
@@ -61,7 +61,7 @@
     <Compile Include="372_Super_Pow.cs" />
     <Compile Include="374_Guess_Number_Higher_or_Lower.cs" />
     <Compile Include="389_Find_the_Difference.cs" />
-    <Compile Include="3_Longest_Substring_Without_Repeating_Characters.cs" />
+    <Compile Include="String\3_Longest_Substring_Without_Repeating_Characters.cs" />
     <Compile Include="46_Permutations.cs" />
     <Compile Include="50_Pow%28x,n%29.cs" />
     <Compile Include="53_Maximum_Subarray.cs" />
@@ -80,7 +80,7 @@
     <Compile Include="LinkedList\138_Copy_List_with_Random_Pointer.cs" />
     <Compile Include="LinkedList\141_Linked_List_Cycle.cs" />
     <Compile Include="LinkedList\142_Linked_List_Cycle_II.cs" />
-    <Compile Include="14_Longest_Common_Prefix.cs" />
+    <Compile Include="String\14_Longest_Common_Prefix.cs" />
     <Compile Include="155_Min_Stack.cs" />
     <Compile Include="167_Two_Sum_II_Input_array_is_sorted.cs" />
     <Compile Include="168_Excel_Sheet_Column_Title.cs" />
@@ -113,20 +113,20 @@
     <Compile Include="283_Move_Zeroes.cs" />
     <Compile Include="292_Nim_Game.cs" />
     <Compile Include="338_Counting_Bits.cs" />
-    <Compile Include="344_Reverse_String.cs" />
-    <Compile Include="345_Reverse_Vowels_of_a_String.cs" />
+    <Compile Include="String\344_Reverse_String.cs" />
+    <Compile Include="String\345_Reverse_Vowels_of_a_String.cs" />
     <Compile Include="36_Valid_Sudoku.cs" />
-    <Compile Include="383_Ransom_Note.cs" />
+    <Compile Include="String\383_Ransom_Note.cs" />
     <Compile Include="387_First_Unique_Character_in_a_String.cs" />
-    <Compile Include="38_Count_and_Say.cs" />
-    <Compile Include="58_Length_of_Last_Word.cs" />
+    <Compile Include="String\38_Count_and_Say.cs" />
+    <Compile Include="String\58_Length_of_Last_Word.cs" />
     <Compile Include="LinkedList\25_Reverse_Nodes_in_k-Group.cs" />
     <Compile Include="LinkedList\2_Add_Two_Numbers.cs" />
     <Compile Include="LinkedList\328_Odd_Even_Linked_List.cs" />
     <Compile Include="LinkedList\382_Linked_List_Random_Node.cs" />
     <Compile Include="LinkedList\390_Elimination_Game.cs" />
     <Compile Include="LinkedList\61_Rotate_List.cs" />
-    <Compile Include="67_Add_Binary.cs" />
+    <Compile Include="String\67_Add_Binary.cs" />
     <Compile Include="70_Climbing_Stairs.cs" />
     <Compile Include="7_Reverse_Integer.cs" />
     <Compile Include="LinkedList\82_Remove_Duplicates_from_Sorted_List_II.cs" />
@@ -137,6 +137,7 @@
     <Compile Include="LinkedList\ListNode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
