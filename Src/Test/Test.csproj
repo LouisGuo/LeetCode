@@ -64,6 +64,7 @@
     <Compile Include="FirstBadVersionTests.cs" />
     <Compile Include="GuessNumberHigherorLowerTests.cs" />
     <Compile Include="LinkedListCycleIITests.cs" />
+    <Compile Include="LinkedList\EliminationGameTests.cs" />
     <Compile Include="LinkedList\LinkedListRandomNodeTests.cs" />
     <Compile Include="LinkedList\PalindromeLinkedListTests.cs" />
     <Compile Include="LinkedList\ReorderListTests.cs" />

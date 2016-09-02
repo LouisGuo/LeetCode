@@ -70,7 +70,7 @@ namespace LeetCode.Tests
             //var bitArray = new BitArray(int.MaxValue);
             doSTH();
             var total1 = GC.GetTotalMemory(false);
-            var increase = (total1 - total)/1024;
+            var increase = (total1 - total) / 1024;
 
             //var middle = bitArray[int.MaxValue / 2];
 
@@ -82,8 +82,27 @@ namespace LeetCode.Tests
         }
 
         private void doSTH()
-        { 
+        {
             var bitArray = new BitArray(int.MaxValue);
+        }
+
+        [TestMethod]
+        public void SpeedTest()
+        {
+            var time = StopWatchExtension.Timing(() =>
+            {
+                for (int i = 0; i < int.MaxValue; i++)
+                {
+                    var resu = i & 1;
+                }
+            });
+            var time1 = StopWatchExtension.Timing(() =>
+            {
+                for (int i = 0; i < int.MaxValue; i++)
+                {
+                    var resu = i % 2;
+                }
+            });
         }
     }
 }
