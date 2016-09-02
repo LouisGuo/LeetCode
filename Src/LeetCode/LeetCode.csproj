@@ -61,6 +61,7 @@
     <Compile Include="372_Super_Pow.cs" />
     <Compile Include="374_Guess_Number_Higher_or_Lower.cs" />
     <Compile Include="389_Find_the_Difference.cs" />
+    <Compile Include="String\17_Letter_Combinations_of_a_Phone_Number.cs" />
     <Compile Include="String\3_Longest_Substring_Without_Repeating_Characters.cs" />
     <Compile Include="46_Permutations.cs" />
     <Compile Include="50_Pow%28x,n%29.cs" />
