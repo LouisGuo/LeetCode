@@ -68,6 +68,7 @@
     <Compile Include="LinkedList\PalindromeLinkedListTests.cs" />
     <Compile Include="LinkedList\ReorderListTests.cs" />
     <Compile Include="LinkedList\ReverseNodesinkGroupTests.cs" />
+    <Compile Include="LinkedList\SortListTests.cs" />
     <Compile Include="LongestSubstringWithoutRepeatingCharactersTests.cs" />
     <Compile Include="MaximalRectangleTests.cs" />
     <Compile Include="PascalsTriangleIITests.cs" />
