@@ -62,6 +62,7 @@
     <Compile Include="374_Guess_Number_Higher_or_Lower.cs" />
     <Compile Include="389_Find_the_Difference.cs" />
     <Compile Include="3_Longest_Substring_Without_Repeating_Characters.cs" />
+    <Compile Include="46_Permutations.cs" />
     <Compile Include="50_Pow%28x,n%29.cs" />
     <Compile Include="53_Maximum_Subarray.cs" />
     <Compile Include="54_Spiral_Matrix.cs" />

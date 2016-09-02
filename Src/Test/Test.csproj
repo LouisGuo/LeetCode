@@ -71,6 +71,7 @@
     <Compile Include="LongestSubstringWithoutRepeatingCharactersTests.cs" />
     <Compile Include="MaximalRectangleTests.cs" />
     <Compile Include="PascalsTriangleIITests.cs" />
+    <Compile Include="PermutationsTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReverseIntegerTests.cs" />
     <Compile Include="ReverseLinkedListTests.cs" />
