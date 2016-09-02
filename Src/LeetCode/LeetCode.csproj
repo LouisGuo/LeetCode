@@ -87,6 +87,7 @@
     <Compile Include="171_Excel_Sheet_Column_Number.cs" />
     <Compile Include="189_Rotate_Array.cs" />
     <Compile Include="LinkedList\143_Reorder_List.cs" />
+    <Compile Include="LinkedList\160_Intersection_of_Two_Linked_Lists.cs" />
     <Compile Include="LinkedList\19_Remove_Nth_Node_From_End_of_List.cs" />
     <Compile Include="1_Two_Sum.cs" />
     <Compile Include="202_Happy_Number.cs" />
