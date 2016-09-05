@@ -74,6 +74,7 @@
     <Compile Include="LinkedList\SortListTests.cs" />
     <Compile Include="LongestSubstringWithoutRepeatingCharactersTests.cs" />
     <Compile Include="MaximalRectangleTests.cs" />
+    <Compile Include="MergeIntervalsTests.cs" />
     <Compile Include="PascalsTriangleIITests.cs" />
     <Compile Include="PermutationsTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

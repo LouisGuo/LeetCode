@@ -13,11 +13,19 @@ namespace LeetCode
             var result = new List<Interval>();
             if (intervals != null && intervals.Count > 0)
             {
+                intervals = intervals.OrderBy(i => i.start).ToList();
                 result.Add(intervals[0]);
                 for (int i = 1; i < intervals.Count; i++)
                 {
-                    
-
+                    if (intervals[i].start > result[result.Count - 1].end)
+                    {
+                        result.Add(intervals[i]);
+                    }
+                    else
+                    {
+                        if (result[result.Count - 1].end < intervals[i].end)
+                            result[result.Count - 1].end = intervals[i].end;
+                    }
                 }
             }
             return result;
