@@ -64,6 +64,7 @@
     <Compile Include="FindtheDifferenceTests.cs" />
     <Compile Include="FirstBadVersionTests.cs" />
     <Compile Include="GuessNumberHigherorLowerTests.cs" />
+    <Compile Include="IntegertoEnglishWordsTests.cs" />
     <Compile Include="LinkedListCycleIITests.cs" />
     <Compile Include="LinkedList\EliminationGameTests.cs" />
     <Compile Include="LinkedList\LinkedListRandomNodeTests.cs" />
