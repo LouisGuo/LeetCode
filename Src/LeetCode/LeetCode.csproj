@@ -49,6 +49,7 @@
     <Compile Include="319_Bulb_Switcher.cs" />
     <Compile Include="349_Intersection_of_Two_Arrays.cs" />
     <Compile Include="48_Rotate_Image.cs" />
+    <Compile Include="57_Insert_Interval.cs" />
     <Compile Include="66_Plus_One.cs" />
     <Compile Include="88_Merge_Sorted_Array.cs" />
     <Compile Include="String\125_Valid_Palindrome.cs" />
