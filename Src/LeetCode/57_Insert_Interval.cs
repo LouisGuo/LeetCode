@@ -17,23 +17,30 @@ namespace LeetCode
                     result.Add(newInterval);
                 else
                 {
-                    var isAdded = false;
-                    for (int i = 0; i < intervals.Count - 1; i++)
+                    var current = 0;
+                    while (current < intervals.Count && intervals[current].start <= newInterval.start)
                     {
-                        if (intervals[i].end <= newInterval.start && intervals[i + 1].start > newInterval.start)
+                        result.Add(intervals[current++]);
+                    }
+                    if (result.Count > 0 && result[result.Count - 1].end >= newInterval.start)
+                    {
+                        result[result.Count - 1].end = Math.Max(result[result.Count - 1].end, newInterval.end);
+                    }
+                    else
+                    {
+                        result.Add(newInterval);
+                    }
+                    while (current < intervals.Count)
+                    {
+                        if (result[result.Count - 1].end >= intervals[current].start)
                         {
-                            isAdded = true;
-                            result.Add(intervals[i]);
-                            if (intervals[i].end >= newInterval.start)
-                            {
-                                intervals[i].end = Math.Max(intervals[i].end, newInterval.end);
-                            }
-                            else
-                            {
-                                result.Add(newInterval);
-                            }
+                            result[result.Count - 1].end = Math.Max(result[result.Count - 1].end, intervals[current].end);
                         }
-                        else if (intervals[])
+                        else
+                        {
+                            result.Add(intervals[current]);
+                        }
+                        current++;
                     }
                 }
             }
