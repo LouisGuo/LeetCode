@@ -49,6 +49,7 @@
     <Compile Include="319_Bulb_Switcher.cs" />
     <Compile Include="349_Intersection_of_Two_Arrays.cs" />
     <Compile Include="392_Is_Subsequence.cs" />
+    <Compile Include="393_UTF-8_Validation.cs" />
     <Compile Include="48_Rotate_Image.cs" />
     <Compile Include="57_Insert_Interval.cs" />
     <Compile Include="66_Plus_One.cs" />

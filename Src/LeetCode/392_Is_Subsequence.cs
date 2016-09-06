@@ -29,10 +29,6 @@ namespace LeetCode
                             tCurrent++;
                             sCurrent++;
                         }
-                        else
-                        {
-                            return false;
-                        }
                     }
                     return sCurrent >= s.Length;
                 }

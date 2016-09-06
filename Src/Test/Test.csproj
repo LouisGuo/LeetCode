@@ -87,6 +87,7 @@
     <Compile Include="RotateArrayTests.cs" />
     <Compile Include="SearchforaRangeTests.cs" />
     <Compile Include="SuperPowTests.cs" />
+    <Compile Include="UTF8ValidationTests.cs" />
     <Compile Include="ValidSudokuTests.cs" />
   </ItemGroup>
   <ItemGroup>
