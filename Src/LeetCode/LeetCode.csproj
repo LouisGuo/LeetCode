@@ -46,7 +46,7 @@
     <Compile Include="119_Pascal%27s_Triangle_II.cs" />
     <Compile Include="13_Roman_to_Integer.cs" />
     <Compile Include="273_Integer_to_English_Words.cs" />
-    <Compile Include="303_Range_Sum_Query _Immutable.cs" />
+    <Compile Include="DP\303_Range_Sum_Query _Immutable.cs" />
     <Compile Include="307_Range_Sum_Query_Mutable.cs" />
     <Compile Include="319_Bulb_Switcher.cs" />
     <Compile Include="349_Intersection_of_Two_Arrays.cs" />
@@ -56,6 +56,7 @@
     <Compile Include="57_Insert_Interval.cs" />
     <Compile Include="66_Plus_One.cs" />
     <Compile Include="88_Merge_Sorted_Array.cs" />
+    <Compile Include="DP\121_Best_Time_to_Buy_and_Sell_Stock.cs" />
     <Compile Include="String\125_Valid_Palindrome.cs" />
     <Compile Include="136_Single_Number.cs" />
     <Compile Include="146_LRU_Cache.cs" />
@@ -88,7 +89,7 @@
     <Compile Include="75_Sort_Colors.cs" />
     <Compile Include="80_Remove_Duplicates_from_Sorted_Array_II.cs" />
     <Compile Include="84_Largest_Rectangle_in_Histogram.cs" />
-    <Compile Include="85_Maximal_Rectangle.cs" />
+    <Compile Include="DP\85_Maximal_Rectangle.cs" />
     <Compile Include="9_Palindrome_Number.cs" />
     <Compile Include="Extension\GCExtension.cs" />
     <Compile Include="LinkedList\138_Copy_List_with_Random_Pointer.cs" />
@@ -126,7 +127,7 @@
     <Compile Include="27_Remove_Element.cs" />
     <Compile Include="283_Move_Zeroes.cs" />
     <Compile Include="292_Nim_Game.cs" />
-    <Compile Include="338_Counting_Bits.cs" />
+    <Compile Include="DP\338_Counting_Bits.cs" />
     <Compile Include="String\344_Reverse_String.cs" />
     <Compile Include="String\345_Reverse_Vowels_of_a_String.cs" />
     <Compile Include="36_Valid_Sudoku.cs" />
@@ -141,7 +142,7 @@
     <Compile Include="LinkedList\390_Elimination_Game.cs" />
     <Compile Include="LinkedList\61_Rotate_List.cs" />
     <Compile Include="String\67_Add_Binary.cs" />
-    <Compile Include="70_Climbing_Stairs.cs" />
+    <Compile Include="DP\70_Climbing_Stairs.cs" />
     <Compile Include="7_Reverse_Integer.cs" />
     <Compile Include="LinkedList\82_Remove_Duplicates_from_Sorted_List_II.cs" />
     <Compile Include="LinkedList\83_Remove_Duplicates_from_Sorted_List.cs" />
