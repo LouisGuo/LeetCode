@@ -47,6 +47,7 @@
     <Compile Include="13_Roman_to_Integer.cs" />
     <Compile Include="273_Integer_to_English_Words.cs" />
     <Compile Include="303_Range_Sum_Query _Immutable.cs" />
+    <Compile Include="307_Range_Sum_Query_Mutable.cs" />
     <Compile Include="319_Bulb_Switcher.cs" />
     <Compile Include="349_Intersection_of_Two_Arrays.cs" />
     <Compile Include="392_Is_Subsequence.cs" />
