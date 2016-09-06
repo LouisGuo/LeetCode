@@ -46,7 +46,7 @@
     <Compile Include="119_Pascal%27s_Triangle_II.cs" />
     <Compile Include="13_Roman_to_Integer.cs" />
     <Compile Include="273_Integer_to_English_Words.cs" />
-    <Compile Include="DP\122_Best_Time_to_Buy_and_Sell_Stock_II.cs" />
+    <Compile Include="122_Best_Time_to_Buy_and_Sell_Stock_II.cs" />
     <Compile Include="DP\123_Best_Time_to_Buy_and_Sell_Stock_III.cs" />
     <Compile Include="DP\303_Range_Sum_Query _Immutable.cs" />
     <Compile Include="307_Range_Sum_Query_Mutable.cs" />
@@ -59,6 +59,7 @@
     <Compile Include="66_Plus_One.cs" />
     <Compile Include="88_Merge_Sorted_Array.cs" />
     <Compile Include="DP\121_Best_Time_to_Buy_and_Sell_Stock.cs" />
+    <Compile Include="DP\309_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown.cs" />
     <Compile Include="String\125_Valid_Palindrome.cs" />
     <Compile Include="136_Single_Number.cs" />
     <Compile Include="146_LRU_Cache.cs" />
