@@ -48,6 +48,7 @@
     <Compile Include="273_Integer_to_English_Words.cs" />
     <Compile Include="122_Best_Time_to_Buy_and_Sell_Stock_II.cs" />
     <Compile Include="DP\123_Best_Time_to_Buy_and_Sell_Stock_III.cs" />
+    <Compile Include="DP\152_Maximum_Product_Subarray.cs" />
     <Compile Include="DP\198_House_Robber.cs" />
     <Compile Include="DP\303_Range_Sum_Query _Immutable.cs" />
     <Compile Include="307_Range_Sum_Query_Mutable.cs" />
@@ -83,7 +84,7 @@
     <Compile Include="String\3_Longest_Substring_Without_Repeating_Characters.cs" />
     <Compile Include="46_Permutations.cs" />
     <Compile Include="50_Pow%28x,n%29.cs" />
-    <Compile Include="53_Maximum_Subarray.cs" />
+    <Compile Include="DP\53_Maximum_Subarray.cs" />
     <Compile Include="54_Spiral_Matrix.cs" />
     <Compile Include="55_Jump_Game.cs" />
     <Compile Include="56_Merge_Intervals.cs" />
