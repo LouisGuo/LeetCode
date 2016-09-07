@@ -8,5 +8,23 @@ namespace LeetCode
 {
     public class HouseRobber
     {
+        public int Solution(int[] nums)
+        {
+            var result = 0;
+            if (nums != null && nums.Length > 0)
+            {
+                result = nums[0];
+                var containn_1 = nums[0];
+                var containNon_1 = 0;
+                for (int i = 1; i < nums.Length; i++)
+                {
+                    var temp = containn_1;
+                    containn_1 = containNon_1 + nums[i];
+                    containNon_1 = temp;
+                    result = Math.Max(result, containn_1);
+                }
+            }
+            return result;
+        }
     }
 }
