@@ -54,7 +54,8 @@
     <Compile Include="307_Range_Sum_Query_Mutable.cs" />
     <Compile Include="319_Bulb_Switcher.cs" />
     <Compile Include="349_Intersection_of_Two_Arrays.cs" />
-    <Compile Include="392_Is_Subsequence.cs" />
+    <Compile Include="DP\322_Coin_Change.cs" />
+    <Compile Include="DP\392_Is_Subsequence.cs" />
     <Compile Include="393_UTF-8_Validation.cs" />
     <Compile Include="48_Rotate_Image.cs" />
     <Compile Include="57_Insert_Interval.cs" />
