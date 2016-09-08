@@ -18,10 +18,9 @@ namespace LeetCode
                 var containNon_1 = 0;
                 for (int i = 1; i < nums.Length; i++)
                 {
-                    var temp = containn_1;
                     containn_1 = containNon_1 + nums[i];
-                    containNon_1 = temp;
-                    result = Math.Max(result, containn_1);
+                    containNon_1 = result;
+                    result = Math.Max(containNon_1, containn_1);
                 }
             }
             return result;
