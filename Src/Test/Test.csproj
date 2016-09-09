@@ -60,6 +60,7 @@
     <Compile Include="BulbSwitcherTests.cs" />
     <Compile Include="ClimbingStairsTests.cs" />
     <Compile Include="CountPrimesTests.cs" />
+    <Compile Include="DivideAndConquer\KthLargestElementinanArrayTests.cs" />
     <Compile Include="ExcelSheetColumnNumberTests.cs" />
     <Compile Include="FindtheDifferenceTests.cs" />
     <Compile Include="FirstBadVersionTests.cs" />

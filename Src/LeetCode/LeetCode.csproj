@@ -47,6 +47,7 @@
     <Compile Include="13_Roman_to_Integer.cs" />
     <Compile Include="273_Integer_to_English_Words.cs" />
     <Compile Include="122_Best_Time_to_Buy_and_Sell_Stock_II.cs" />
+    <Compile Include="DivideAndConquer\215_Kth_Largest_Element_in_an_Array.cs" />
     <Compile Include="DP\123_Best_Time_to_Buy_and_Sell_Stock_III.cs" />
     <Compile Include="DP\152_Maximum_Product_Subarray.cs" />
     <Compile Include="DP\198_House_Robber.cs" />
@@ -106,7 +107,7 @@
     <Compile Include="155_Min_Stack.cs" />
     <Compile Include="167_Two_Sum_II_Input_array_is_sorted.cs" />
     <Compile Include="168_Excel_Sheet_Column_Title.cs" />
-    <Compile Include="169_Majority_Element.cs" />
+    <Compile Include="DivideAndConquer\169_Majority_Element.cs" />
     <Compile Include="171_Excel_Sheet_Column_Number.cs" />
     <Compile Include="189_Rotate_Array.cs" />
     <Compile Include="LinkedList\143_Reorder_List.cs" />
