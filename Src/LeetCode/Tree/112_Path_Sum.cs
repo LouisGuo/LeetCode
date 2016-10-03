@@ -31,5 +31,30 @@ namespace LeetCode
                         || Matchs(root.right, sum, currentSum + root.val);
             }
         }
+
+        public bool Solution_Simple(TreeNode root, int sum)
+        {
+            if (root != null)
+            {
+                if (root.left == null && root.right == null)
+                {
+                    return root.val == sum;
+                }
+                else if (root.left == null && root.right != null)
+                {
+                    return Solution_Simple(root.right, sum - root.val);
+                }
+                else if (root.left != null && root.right == null)
+                {
+                    return Solution_Simple(root.left, sum - root.val);
+                }
+                else
+                {
+                    return Solution_Simple(root.right, sum - root.val)
+                        || Solution_Simple(root.left, sum - root.val);
+                }
+            }
+            return false;
+        }
     }
 }
