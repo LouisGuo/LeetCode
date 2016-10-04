@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="100_Same_Tree.cs" />
     <Compile Include="378_Kth_Smallest_Element_in_a_Sorted_Matrix.cs" />
+    <Compile Include="Tree\102_Binary_Tree_Level_Order_Traversal.cs" />
     <Compile Include="Tree\104_Maximum_Depth_of_Binary_Tree.cs" />
     <Compile Include="118_Pascal%27s_Triangle.cs" />
     <Compile Include="119_Pascal%27s_Triangle_II.cs" />
