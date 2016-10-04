@@ -176,6 +176,7 @@
     <Compile Include="Tree\112_Path_Sum.cs" />
     <Compile Include="Tree\257_Binary_Tree_Paths.cs" />
     <Compile Include="Tree\94_Binary_Tree_Inorder_Traversal.cs" />
+    <Compile Include="Tree\98_Validate_Binary_Search_Tree.cs" />
     <Compile Include="Tree\TreeNode.cs" />
   </ItemGroup>
   <ItemGroup />
