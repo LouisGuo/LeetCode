@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace LeetCode
 {
-    public class BinaryTreeInorderTraversal
+    public class BinaryTreePostorderTraversal
     {
-        public IList<int> Solution(TreeNode root)
+        public IList<int> PostorderTraversal(TreeNode root)
         {
             var result = new List<int>();
             if (root != null)
             {
                 if (root.left != null)
-                    result.AddRange(Solution(root.left));
-                result.Add(root.val);
+                    result.AddRange(PostorderTraversal(root.left));
                 if (root.right != null)
-                    result.AddRange(Solution(root.right));
+                    result.AddRange(PostorderTraversal(root.right));
+                result.Add(root.val);
             }
             return result;
         }

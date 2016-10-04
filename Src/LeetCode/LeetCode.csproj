@@ -132,6 +132,7 @@
     <Compile Include="219_Contains_Duplicate_II.cs" />
     <Compile Include="Tree\113_Path_Sum_II.cs" />
     <Compile Include="Tree\144_Binary_Tree_Preorder_Traversal.cs" />
+    <Compile Include="Tree\145_Binary_Tree_Postorder_Traversal.cs" />
     <Compile Include="Tree\226_Invert_Binary_Tree.cs" />
     <Compile Include="LinkedList\21_Merge_Two_Sorted_Lists.cs" />
     <Compile Include="LinkedList\234_Palindrome_Linked_List.cs" />
