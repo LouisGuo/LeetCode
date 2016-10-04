@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace LeetCode
 {
-    public class BinaryTreeLevelOrderTraversal
+    public class BinaryTreeLevelOrderTraversalII
     {
-        public IList<IList<int>> LevelOrder(TreeNode root)
+        public IList<IList<int>> LevelOrderBottom(TreeNode root)
         {
             var nodeList = new List<List<TreeNode>>();
             if (root != null)
@@ -30,6 +30,7 @@ namespace LeetCode
                         break;
                 }
             }
+            nodeList.Reverse();
             return nodeList.Select(nodes => (IList<int>)nodes.Select(node => node.val).ToList()).ToList();
         }
     }
