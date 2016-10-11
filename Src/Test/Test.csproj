@@ -61,6 +61,7 @@
     <Compile Include="ClimbingStairsTests.cs" />
     <Compile Include="CountPrimesTests.cs" />
     <Compile Include="DivideAndConquer\KthLargestElementinanArrayTests.cs" />
+    <Compile Include="DP\CombinationSumIITests.cs" />
     <Compile Include="DP\DecodeWaysTests.cs" />
     <Compile Include="DP\MinimumPathSumTests.cs" />
     <Compile Include="ExcelSheetColumnNumberTests.cs" />
