@@ -17,21 +17,7 @@ namespace LeetCode
             var leftMax = 1 + (root.left == null ? 0 : Solution(root.left));
             var rightMax = 1 + (root.right == null ? 0 : Solution(root.right));
             return leftMax > rightMax ? leftMax : rightMax;
-        }
-
-        public class TreeNode
-        {
-            public int val;
-
-            public TreeNode left;
-
-            public TreeNode right;
-
-            public TreeNode(int x)
-            {
-                val = x;
-            }
-        }
+        } 
     }
 
 
