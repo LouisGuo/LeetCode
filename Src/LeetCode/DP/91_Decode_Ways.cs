@@ -13,6 +13,8 @@ namespace LeetCode
             var result = 0;
             if (!String.IsNullOrEmpty(s))
             {
+                if (s[0] == '0')
+                    return 0;
                 if (s.Length == 1)
                     result = 1;
                 else
@@ -22,7 +24,16 @@ namespace LeetCode
                     result = fn_1;
                     for (int i = 2; i < s.Length; i++)
                     {
-                        result = Math.Max(fn_1, fn_2 + (IsValid(s[i - 1], s[i]) ? 1 : 0));
+                        if (s[i] == '0')
+                            return 0;
+                        if (IsValid(s[i - 1], s[i]))
+                        {
+                            result = fn_1 + fn_2;
+                        }
+                        else
+                        {
+                            result = fn_1;
+                        }
                         fn_2 = fn_1;
                         fn_1 = result;
                     }
@@ -34,7 +45,7 @@ namespace LeetCode
         private bool IsValid(char a, char b)
         {
             var value = int.Parse(a + "" + b);
-            return value > 0 && value < 27;
+            return value > 9 && value < 27;
         }
     }
 }
