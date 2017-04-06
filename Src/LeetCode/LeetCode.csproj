@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="100_Same_Tree.cs" />
     <Compile Include="378_Kth_Smallest_Element_in_a_Sorted_Matrix.cs" />
+    <Compile Include="412_Fizz_Buzz.cs" />
     <Compile Include="500_Keyboard_Row.cs" />
     <Compile Include="DP\39_Combination_Sum.cs" />
     <Compile Include="DP\40_Combination_Sum_II.cs" />
